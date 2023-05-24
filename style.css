@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+/* ---------- GENERAL ---------- */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: url(./img/nike-invincible3-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5em;
+}
+.menu a {
+  font-size: 34px;
+  text-decoration: none;
+}
+
+/* ---------- SECTION PART 2 ---------- */
+.section-part2 {
+  position: sticky;
+  top: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+.container-texts {
+  margin: 1em;
+  color: black;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(115, 164, 192);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+p {
+  margin-bottom: 1em;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+input {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(115, 164, 192);
+  cursor: pointer;
+}
+input:hover {
+  transition: all 0.6s ease;
+  background-color: rgb(115, 164, 192);
+  color: rgb(255, 255, 255);
+}
+
+.container-socialmedia {
+  align-self: end;
+  margin: 1em;
+  text-align: end;
+}
+.container-socialmedia a {
+  padding: 0.2em;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
