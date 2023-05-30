@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 
 /* ---------- GENERAL ---------- */
-html {
-  scroll-behavior: smooth;
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -90,4 +87,84 @@ input:hover {
   font-size: 20px;
   display: flex;
   flex-direction: column;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+@media screen and (min-width: 320px) and (max-width: 767px){
+/* ---------- NAVBAR ---------- */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu a {
+  font-size: 34px;
+}
+
+/* ---------- SECTION PART 2 ---------- */
+.section-part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-texts {
+  text-align: center;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 1em;
+}
+p {
+  display: none;
+}
+input {
+  width: 90px;
+  height: 40px;
+}
+.container-socialmedia {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.container-socialmedia a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+}
+
+/* ---------- TABLET ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+/* ---------- SECTION PART 2 ---------- */
+.section-part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-texts {
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+p {
+  display: none;
+}
+input {
+  width: 100px;
+  height: 40px;
+}
+.container-socialmedia {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.container-socialmedia a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
 }
